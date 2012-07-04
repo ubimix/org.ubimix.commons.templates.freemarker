@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.webreformatter.commons</groupId>
+        <artifactId>org.webreformatter.commons.poms</artifactId>
+        <version>1.1.5</version>
+    </parent>
+    <groupId>org.webreformatter.commons</groupId>
+    <artifactId>org.webreformatter.commons.templates.freemarker</artifactId>
+    <packaging>bundle</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>${artifactId}</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.webreformatter.commons</groupId>
+            <artifactId>org.webreformatter.commons.templates</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webreformatter.libs</groupId>
+            <artifactId>org.freemarker</artifactId>
+            <version>2.3.18</version>
+        </dependency>
+    </dependencies>
+</project>
