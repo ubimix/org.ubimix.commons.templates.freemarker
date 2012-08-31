@@ -10,7 +10,7 @@
     <groupId>org.webreformatter.commons</groupId>
     <artifactId>org.webreformatter.commons.templates.freemarker</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.2.0</version>
     <name>${artifactId}</name>
 
     <dependencies>
