@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Export-Package: org.webreformatter.commons.templates.freemarker;version="0.1.5.SNAPSHOT";uses:="org.webreformatter.commons.templates"
+Export-Package: org.ubimix.commons.templates.freemarker
 Bundle-ClassPath: .
-Bundle-Version: 2.3.18
-Bundle-Name: org.webreformatter.commons.templates.freemarker
+Bundle-Version: 1.2.1
+Bundle-Name: org.ubimix.commons.templates.freemarker
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
 Bundle-Description: WebReformatter
@@ -43,10 +43,9 @@ Import-Package: com.sun.org.apache.xml.internal.utils;resolution:=optional,
  org.python.util;resolution:=optional,
  org.w3c.dom;resolution:=optional,
  org.w3c.dom.traversal;resolution:=optional,
- org.webreformatter.commons.templates;version="0.1.4.SNAPSHOT",
- org.webreformatter.commons.templates.providers;version="0.1.5.SNAPSHOT",
+ org.ubimix.commons.templates,
+ org.ubimix.commons.templates.providers,
  org.xml.sax;resolution:=optional,
  org.xml.sax.helpers;resolution:=optional,
  org.zeroturnaround.javarebel;resolution:=optional
-Bundle-SymbolicName: org.webreformatter.commons.templates.freemarker
-
+Bundle-SymbolicName: org.ubimix.commons.templates.freemarker

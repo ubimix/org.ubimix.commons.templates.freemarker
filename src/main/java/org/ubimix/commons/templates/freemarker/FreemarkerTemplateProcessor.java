@@ -8,7 +8,7 @@
  * Contributors:
  *     Cognium Systems SA - initial API and implementation
  *******************************************************************************/
-package org.webreformatter.commons.templates.freemarker;
+package org.ubimix.commons.templates.freemarker;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,10 +20,10 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.webreformatter.commons.templates.ITemplateProcessor;
-import org.webreformatter.commons.templates.ITemplateProvider;
-import org.webreformatter.commons.templates.TemplateException;
-import org.webreformatter.commons.templates.TemplateProcessor;
+import org.ubimix.commons.templates.ITemplateProcessor;
+import org.ubimix.commons.templates.ITemplateProvider;
+import org.ubimix.commons.templates.TemplateException;
+import org.ubimix.commons.templates.TemplateProcessor;
 
 import freemarker.cache.TemplateLoader;
 import freemarker.template.Configuration;
